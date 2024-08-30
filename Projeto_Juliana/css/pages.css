@@ -1,0 +1,205 @@
+html, body {
+    background: linear-gradient(#000000, #Ab1111) ;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: sans-serif;
+    height: 100%;
+    
+  }
+ 
+
+  .fotoLogo {
+    margin-top: 12px;
+  }
+  
+  .foto {
+    margin-left: 45px;
+  }
+  
+  #navbar {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+
+  #navbar2 {
+    margin-left: 50px;
+    margin-top: 8px;
+  }
+  
+  .navega {
+    margin-top: 8px;
+  }
+
+  .pageName{
+    justify-content: left;
+    margin-left: 400px;
+    margin-top: 50px;
+  }
+
+  .pageName2{
+    justify-content: left;
+    margin-left: 400px;
+    margin-top: 8px;
+  }
+  
+  .servicos {
+    flex-direction: row;
+    display: inline-grid;
+    margin-top: 10px;
+    margin-right: 50px;
+    font-size: x-large;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .header {
+    display: inline-block;
+    justify-items: left;
+    margin-right: 200px;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px; /* Adiciona espaço entre o logo e os links de navegação */
+  }
+  
+  .logo img {
+    width: 100px;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .card {
+    color: #000000;
+    background-color: #ffffff;
+    margin: 10px;
+    margin-top: 20px;
+    width: 250px;
+    height: 400px;
+    text-align: left; /* Alinha o conteúdo à esquerda */
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .card-description {
+    color: #000000;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .card-price {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  .btn-btn-danger {
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    text-align: left; /* Alinha o botão à esquerda */
+    display: block; /* Faz com que o botão ocupe toda a largura disponível */
+  }
+
+/* Estilos para o container do formulário */
+.containerContato {
+  border: 1px solid #fff; /* Borda fina e branca */
+  padding: 40px; /* Espaçamento interno */
+  border-radius: 8px; /* Cantos arredondados */
+  margin-top: 20px; /* Espaço acima do container */
+  width: 40%; /* Largura do container */
+  margin-left: auto;
+  margin-right: auto; /* Centraliza o container horizontalmente */
+  margin-bottom: 220px;
+  text-align: center; /* Alinha o texto ao centro */
+  display: flex; /* Usa Flexbox para alinhar os elementos internos */
+  flex-direction: column; /* Alinha os elementos em uma coluna */
+  align-items: center; /* Centraliza os elementos horizontalmente */
+}
+
+/* Estilos para os inputs */
+.containerContato input[type="text"],
+.containerContato input[type="email"],
+.containerContato textarea {
+  border: 1px solid #ccc; /* Borda fina e cinza-claro */
+  border-radius: 4px; /* Cantos arredondados nos inputs */
+  padding: 10px; /* Espaçamento interno dos inputs */
+  width: 80%; /* Ajusta a largura dos inputs dentro do container */
+  box-sizing: border-box; /* Inclui padding e border na largura total */
+  margin-bottom: 10px; /* Espaçamento entre inputs */
+}
+
+/* Estilos para o botão */
+.containerContato button {
+  background-color: #FFF7E3; /* Cor de fundo azul do botão */
+  border: none; /* Remove a borda padrão do botão */
+  color: #AB1111; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border-radius: 4px; /* Cantos arredondados no botão */
+  font-size: 16px; /* Tamanho da fonte do botão */
+  cursor: pointer; /* Mostra o cursor de pointer ao passar sobre o botão */
+  transition: background-color 0.3s; /* Transição suave para a cor de fundo */
+  margin-bottom: 10px;
+}
+
+  .footer {
+    display: flex;
+    justify-content: space-between; /* Alinha os parágrafos nas extremidades do rodapé */
+    align-items: end;
+    padding: 16px;
+  }
+  
+  .footer p {
+    margin: 0;
+    justify-content: end;
+    align-items: end;
+  }
+   
+    /* Estilização responsiva para telas menores */
+    @media (max-width: 768px) {
+        header .navega {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        header .navega a {
+          margin: 10px 0;
+        }
+      
+        .carousel-item img {
+          height: auto; /* Ajusta a altura da imagem do carrossel */
+        }
+      }
+      

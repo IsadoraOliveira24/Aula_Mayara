@@ -1,0 +1,78 @@
+html, body {
+  background: linear-gradient(#000000, #Ab1111) ;
+  background-repeat: no-repeat;
+  color: white;
+  font-family: sans-serif;
+  height: 100%;
+  
+}
+.fotoLogo {
+  margin-top: 12px;
+}
+
+.foto {
+  margin-left: 45px;
+}
+
+.logo img {
+  width: 100px;
+  margin-left: 45px;
+}
+
+#navbar {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+#navbar2 {
+  margin-left: 50px;
+  margin-top: 8px;
+}
+
+.navega a {
+  color: white; /* Mudar a cor do texto da navbar para branco */
+  text-decoration: none; /* Remover o sublinhado dos links */
+  margin-right: 15px; /* Espaçamento entre os links */
+}
+  
+  /* Estilização do título da página */
+  .pageName2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Estilização do carrossel */
+  .carousel-item img {
+    object-fit: cover;
+    height: 500px; /* Altura do carrossel */
+    padding: 20px;
+  }
+  
+  /* Estilização do footer */
+
+.footer  {
+  display: flex;
+  justify-content: space-between; /* Alinha os parágrafos nas extremidades do rodapé */
+  align-items: end;
+  padding: 16px;
+  
+}
+  
+  /* Estilização responsiva para telas menores */
+  @media (max-width: 768px) {
+    header .navega {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    header .navega a {
+      margin: 10px 0;
+    }
+  
+    .carousel-item img {
+      height: auto; /* Ajusta a altura da imagem do carrossel */
+    }
+  }
+  

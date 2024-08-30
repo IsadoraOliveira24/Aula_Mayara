@@ -1,0 +1,191 @@
+ body {
+    background: linear-gradient(#000000, #Ab1111) ;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: sans-serif;
+    height: 100%;
+    
+  }
+  .fotoLogo {
+    margin-top: 12px;
+  }
+  
+  .foto {
+    margin-left: 45px;
+  }
+  
+  #navbar {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#navbar2 {
+    margin-left: 50px;
+    margin-top: 8px;
+}
+
+.navega a {
+    color: white; /* Mudar a cor do texto da navbar para branco */
+    text-decoration: none; /* Remover o sublinhado dos links */
+    margin-right: 15px; /* Espaçamento entre os links */
+}
+
+  .pageName{
+    justify-content: left;
+    margin-left: 400px;
+    margin-top: 50px;
+  }
+
+  .pageName2{
+    justify-content: left;
+    margin-left: 400px;
+    margin-top: 8px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .logo img {
+    width: 100px;
+    margin-left: 45px;
+  }
+
+  h1 {
+    text-align: left;
+    margin-left: 200px;
+    margin-top: 40px;
+  }
+  h3 {
+    margin-left: 500px;
+    margin-top: 50px;
+    margin-right: 50px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  h4 {
+    margin-top: 50px;
+    align-items: left;
+    margin-right: 500px;
+  }
+  p {
+    margin-left: 450px;
+    font-size: 25px;
+    margin-top: 40px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  .coluna1, .coluna3, .coluna5, .coluna7 {
+    float: left;
+    width: 48%; /* 48% para deixar um espaço de 2% entre as colunas */
+    margin-right: 2%; /* Espaçamento entre as colunas */
+}
+
+.coluna2, .coluna4, .coluna6, .coluna8 {
+    float: right;
+    width: 48%;
+}
+
+.coluna1, .coluna2, .coluna3, .coluna4, .coluna5, .coluna6, .coluna7, .coluna8 {
+    margin-bottom: 20px; /* Espaçamento entre linhas */
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.dadosfinanciamento {
+  margin-right: 500px;
+  margin-left: 500px;
+
+}
+
+.dadospessoais {
+  margin-right: 500px;
+  margin-left: 500px;
+
+}
+
+.dadosprofissionais {
+  margin-right: 2px;
+  margin-left: 2px;
+  margin-top: 20px;
+}
+
+.select{
+   flex: 1;
+}
+
+.p2 {
+  margin-top: 60px ;
+}
+
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button {
+    background-color: #FFF7E3;
+    color: #AB1111;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 300px;
+  }
+
+  footer {
+    justify-content: space-between;
+    margin-top: 50px;
+    color: #ffffff;
+    float: center;
+    font-size: small;
+  }
+
+    /* Estilização responsiva para telas menores */
+    @media (max-width: 768px) {
+        header .navega {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        header .navega a {
+          margin: 10px 0;
+        }
+      
+        .carousel-item img {
+          height: auto; /* Ajusta a altura da imagem do carrossel */
+        }
+      }
+      
